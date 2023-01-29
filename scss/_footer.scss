@@ -1,0 +1,25 @@
+.pie-de-pagina- {
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px; 
+    @media (max-width: 450) {
+        justify-content: center;
+    }
+ ul {
+        list-style-type: none;
+        display: flex;
+        li {
+            display: block;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            justify-content: center;
+            color: black;
+            @media (max-width: 450px) {
+                font-size: 15px;
+                padding: 5px 10px;      
+            }
+        }
+    }
+}

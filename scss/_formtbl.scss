@@ -1,0 +1,67 @@
+.tabla {
+    padding-top: 35px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .tbl-u- {
+        width: auto;
+        background-color:$colorTabForm;
+        box-shadow: $sombra;
+        -webkit-box-shadow: $sombra;
+        -moz-box-shadow: $sombra;
+        border: solid rgba(46, 58, 167, 0) 2px;
+    }
+}
+.tbl-u {
+    display: block;
+    justify-content: center;
+    .tbl-ubi- {
+        border: solid;
+        border-style: double;
+        tr > th > td {
+            border: solid;
+            border-style: dashed;
+        }
+    }
+}
+table{
+    border: solid 1px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+tr, th, td {
+    border: solid 1px ;
+    border-style: double 2px;
+    padding: 10px;
+}
+.form- {
+    padding-top: 35px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    .form {
+        background-color: $colorTabForm;
+        box-shadow: $sombra;
+        -webkit-box-shadow: $sombra;
+        -moz-box-shadow: $sombra;
+    }
+    .form-1{
+        background-color: $colorTabForm;
+        box-shadow: $sombra;
+        -webkit-box-shadow: $sombra;
+        -moz-box-shadow: $sombra;
+        @media (min-width:360px) and (max-width: 375px) {
+          width: 340px;
+        }
+    }
+    .form-dis- {
+        border: solid;
+        border-style: double;
+    }
+}

@@ -1,0 +1,49 @@
+.lata- {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: xx-large;
+}
+.botella- {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: xx-large;
+}
+.inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.comprar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.boton {
+    border-radius: 5px;
+    background: #4a52bd00;
+    padding: 5px 5px 5px 5px;
+}
+.boton- {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    @media (min-width: 360px) and (max-width: 374px) {
+        padding: 0px 141.5px 0px 141.5px;
+    }
+    @media (min-width: 375px) and (max-width: 427px) {
+      padding: 0px 142.2px 0px 142.2px;
+    }
+    @media (min-width: 428px) and (max-width: 767px) {
+        padding: 0px 160.5px 0px 160.5px
+    }
+    @media (min-width: 768px) {
+        padding: 5px 160px 0px 160px;
+    }
+}

@@ -1,0 +1,21 @@
+*{
+  margin: 0;         
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Serif', serif;
+}
+.todo {
+  background-image: linear-gradient(to top, #ec7f00, #ed8c27, #ee993f, #eea555, #efb16b, #f9b685, #febe9e, #ffc7b6, #ffd3d5, #fee2ee, #fbf1fb, #ffffff);
+}
+.loading {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  opacity: 0.90;
+  background-color: rgba(0, 0, 0, 0.904);
+  position: fixed;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
